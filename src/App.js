@@ -78,7 +78,7 @@ class App extends Component {
         <h3>Adventure Game</h3>
         <div className="App-game">
           <div className="App-status">
-            <StatusContainer heroes={this.state.heroes}/>
+            <StatusContainer heroes={this.state.heroes} />
           </div>
           <div className="App-map">
             <MapContainer tiles={this.state.tiles}/>
